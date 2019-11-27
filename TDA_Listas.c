@@ -24,6 +24,10 @@ nodoListaCancion * agregarPpio (nodoListaCancion * lista, nodoListaCancion * nue
 void mostrarListaCanciones (nodoListaCancion * lista) {
     system("cls");
     printf("/// ----- MI PLAYLIST ----- ///\n");
+
+    if (!lista)
+        printf("\n\n\tNo hay canciones en la PlayList.\n\n\n");
+
     while (lista) {
         mostrarUnNodoCancion(lista);
         lista = lista->sig;

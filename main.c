@@ -150,6 +150,9 @@ void primeraPantalla () {
             break;
 
         case 4: // salir
+            gotoxy(60, 18);
+            printf("Gracias. Vuelvas prontos%c\n\n\n\n", 33);
+            //No existe -o al menos no encontré- el ascii de "¡" (Signo de admiración de apertura).
             break;
 
         default:

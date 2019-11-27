@@ -71,3 +71,39 @@
 1574878770 source:c:\users\manzo\desktop\spotifys\myproject2\tda_listas.c
 	"TDA_Listas.h"
 
+1491400450 source:c:\users\nahuel\documents\github\newtpflab2\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1574884798 source:c:\users\nahuel\documents\github\newtpflab2\main.c
+	"TDA_Arboles.h"
+	"TDA_Listas.h"
+	"TDA_AdL.h"
+
+1574888965 c:\users\nahuel\documents\github\newtpflab2\tda_arboles.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	<windows.h>
+	"gotoxy.h"
+
+1491399896 c:\users\nahuel\documents\github\newtpflab2\gotoxy.h
+
+1574869820 c:\users\nahuel\documents\github\newtpflab2\tda_listas.h
+	"TDA_Arboles.h"
+
+1574833956 c:\users\nahuel\documents\github\newtpflab2\tda_adl.h
+	"TDA_Listas.h"
+
+1574833956 source:c:\users\nahuel\documents\github\newtpflab2\tda_adl.c
+	"TDA_AdL.h"
+
+1574875162 source:c:\users\nahuel\documents\github\newtpflab2\tda_arboles.c
+	"TDA_Arboles.h"
+
+1574889760 source:c:\users\nahuel\documents\github\newtpflab2\tda_listas.c
+	"TDA_Listas.h"
+
