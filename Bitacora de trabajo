@@ -1,0 +1,55 @@
+
+
+Esta es la bitacora del Trabajo Final de Laboratorio de Computación 2.
+
+Alumnos: Agustín Lapenna y Nahuel Trucco.
+Nombre del proyecto: DiskJockey.
+
+
+
+23-10-2019 >> Decidimos llevar adelante la propuesta de la catedra.
+              Empezamos a trabajar, como primer paso comenzamos a crear las los TDA desde 0, para practicar en el proceso.
+
+
+27-10-2019 >> Creamos el tablero en trello.com y empezamos a diagramar las tareas pendientes.
+              Link al tablero -> (https://trello.com/b/O3mvaIvc/tpfinal-lab2-trucco-lapenna).
+
+
+5-11-2019 >> Nahuel crea su cuenta en GitHub, y almacena los avances en el repositorio TPFLAB2.
+
+
+6-11-2019 >> Agustín comienza a crear lso menú del sistema y otras funciones afines.
+             Nahuel invita a Agustín a crear su cuenta en GitHub
+
+
+7-11-2019 >> Los TDA están casi listos, solo faltan las funciones que balanceo en el TDA de Arboles.
+             Se crea la Bitacora de Trabajo.
+             Agustín continua creando funciones varias.
+             Nahuel comienza adaptar librerías para el TP.
+
+
+
+11-11-2019 >> Se agrega la función cargarArregloUsuarios().
+              Se integran las siguientes funciones, provenientes de JUKEBOX:
+                    - buscarUltimoId_Usuario()
+                    - existenciaNombreUsuario()
+                    - asteriscosEnPassword ()
+                    - guardarUsuario()
+              Se analizan y mejoran las documentaciones y comentarios realizados en las funciones que se integraron, para facilitar su comprensión.
+              En la función asteriscosEnPassword(), se deben revisar dos cosas:
+                    - if(carac == 13), no tiene sentido dentro del while.
+                    - La función de la variable i, estimo que tampoco tiene sentido.
+                    - Me rectifico, tiene sentido pero no entiendo en que momento entra en juego asteriscosEnPassword() y como recibe todos los caracteres.
+               En la función cargarArregloUsuarios(), se debe revisar:
+                    - La asignación que se le realiza a la variable celdaActual.listaCanciones.
+                            - Eso concierne a listas y si no recuerdo mal, Agustín estaba trabajando sobre eso.
+
+
+
+21-11-2019 >>
+
+
+
+
+
+                        ""
