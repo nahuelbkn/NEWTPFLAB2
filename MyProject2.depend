@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1491400450 source:c:\users\austin vant\desktop\myproject2\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1574875161 source:c:\users\austin vant\desktop\myproject2\tda_arboles.c
+	"TDA_Arboles.h"
+
+1574840759 c:\users\austin vant\desktop\myproject2\tda_arboles.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	<windows.h>
+	"gotoxy.h"
+
+1491399896 c:\users\austin vant\desktop\myproject2\gotoxy.h
+
+1574878769 source:c:\users\austin vant\desktop\myproject2\tda_listas.c
+	"TDA_Listas.h"
+
+1574869818 c:\users\austin vant\desktop\myproject2\tda_listas.h
+	"TDA_Arboles.h"
+
+1574833955 source:c:\users\austin vant\desktop\myproject2\tda_adl.c
+	"TDA_AdL.h"
+
+1574833955 c:\users\austin vant\desktop\myproject2\tda_adl.h
+	"TDA_Listas.h"
+
+1574878654 source:c:\users\austin vant\desktop\myproject2\main.c
+	"TDA_Arboles.h"
+	"TDA_Listas.h"
+	"TDA_AdL.h"
+
+1491400450 source:c:\users\manzo\desktop\spotifys\myproject2\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1574884797 source:c:\users\manzo\desktop\spotifys\myproject2\main.c
+	"TDA_Arboles.h"
+	"TDA_Listas.h"
+	"TDA_AdL.h"
+
+1574840760 c:\users\manzo\desktop\spotifys\myproject2\tda_arboles.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+	<string.h>
+	<windows.h>
+	"gotoxy.h"
+
+1491399896 c:\users\manzo\desktop\spotifys\myproject2\gotoxy.h
+
+1574869820 c:\users\manzo\desktop\spotifys\myproject2\tda_listas.h
+	"TDA_Arboles.h"
+
+1574833956 c:\users\manzo\desktop\spotifys\myproject2\tda_adl.h
+	"TDA_Listas.h"
+
+1574833956 source:c:\users\manzo\desktop\spotifys\myproject2\tda_adl.c
+	"TDA_AdL.h"
+
+1574875162 source:c:\users\manzo\desktop\spotifys\myproject2\tda_arboles.c
+	"TDA_Arboles.h"
+
+1574878770 source:c:\users\manzo\desktop\spotifys\myproject2\tda_listas.c
+	"TDA_Listas.h"
+
