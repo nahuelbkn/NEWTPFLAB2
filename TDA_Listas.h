@@ -3,8 +3,9 @@
 
 #include "TDA_Arboles.h"
 
-typedef struct {
+typedef struct nodoListaCancion{
     stCancion c;
+    struct nodoListaCancion * ante;
     struct nodoListaCancion * sig;
 } nodoListaCancion;
 

@@ -76,7 +76,7 @@
 	<stdlib.h>
 	<windows.h>
 
-1574884798 source:c:\users\nahuel\documents\github\newtpflab2\main.c
+1574898457 source:c:\users\nahuel\documents\github\newtpflab2\main.c
 	"TDA_Arboles.h"
 	"TDA_Listas.h"
 	"TDA_AdL.h"
@@ -92,7 +92,7 @@
 
 1491399896 c:\users\nahuel\documents\github\newtpflab2\gotoxy.h
 
-1574869820 c:\users\nahuel\documents\github\newtpflab2\tda_listas.h
+1574901682 c:\users\nahuel\documents\github\newtpflab2\tda_listas.h
 	"TDA_Arboles.h"
 
 1574833956 c:\users\nahuel\documents\github\newtpflab2\tda_adl.h
@@ -104,6 +104,6 @@
 1574875162 source:c:\users\nahuel\documents\github\newtpflab2\tda_arboles.c
 	"TDA_Arboles.h"
 
-1574889760 source:c:\users\nahuel\documents\github\newtpflab2\tda_listas.c
+1574900493 source:c:\users\nahuel\documents\github\newtpflab2\tda_listas.c
 	"TDA_Listas.h"
 

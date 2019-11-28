@@ -7,6 +7,7 @@ nodoListaCancion * inicLista () {
 nodoListaCancion * crearNodoLista (stCancion datos) {
     nodoListaCancion * nuevo = (nodoListaCancion*) malloc(sizeof(nodoListaCancion));
     nuevo->c = datos;
+    nuevo->ante = NULL;
     nuevo->sig = NULL;
     return nuevo;
 }
@@ -16,6 +17,7 @@ nodoListaCancion * agregarPpio (nodoListaCancion * lista, nodoListaCancion * nue
         lista = nuevo;
     else {
         nuevo->sig = lista;
+        lista->ante = nuevo;
         lista = nuevo;
     }
     return lista;
