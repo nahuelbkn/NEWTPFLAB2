@@ -71,11 +71,11 @@ stCancion inicCancion () {
     return vacia;
 }
 
-stCancion buscarCancionPorID (nodoArbolCancion * raiz, int idCancionBuscada) {
-    stCancion aux = inicCancion();
+nodoArbolCancion * buscarCancionPorID (nodoArbolCancion * raiz, int idCancionBuscada) {
+    nodoArbolCancion * aux = inicArbol();
     if (raiz) {
         if (raiz->c.idCancion == idCancionBuscada) {
-            aux = raiz->c;
+            aux = raiz;
         } else {
             if (raiz->c.idCancion > idCancionBuscada) {
                 aux = buscarCancionPorID(raiz->izq, idCancionBuscada);
