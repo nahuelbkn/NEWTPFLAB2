@@ -1,0 +1,53 @@
+Manual de Usuario.
+
+Primera pantalla: se muestran las opciones de ingreso al sistema 
+y de registro al mismo. Se deben utilizar las flechas del teclado
+para desplazarse por el menú.
+
+Pantalla de ingreso: se le solicita al usuario su nick y password.
+Solo puede ingresar si introduce un nombre y una contraseña validas.
+Al fallar 3 veces se cierra el programa.
+
+Pantalla de registro: solicita los datos de la persona que va a registrar.
+No puede ingresar un usuario que ya esté registrado. Debe ingresar y verificar
+su password, debe ser mayor a 16 años e ingresar un género valido
+
+Pantalla de administrador: se muestran todas las funciones del mismo.
+Se desplaza con las flechas. Solo el ADMIN puede ver el nivel y el estado
+del usuario.
+
+1) Crear usuario: se abre la pantalla de registro, con la diferencia que el 
+admin puede decidir si el que va a registrar esta activo y su nivel de acceso
+
+2) Modificar usuario: ingresando la ID de un usuario, un admin puede ir y 
+modificar cualquiera de sus datos, respetando las reglas de registro
+anteriormente mencionadas. Cada cambio se persiste inmediatamente. Si el
+modificado esta ACTIVO lo modifica en el sistema y en el archivo a la vez.
+Si esta dado de baja, solo lo modifica en el archivo.
+
+3) Listar usuarios: muestra todos los usuarios en los archivos del sistema.
+4) Buscar usuario: se busca por ID y se muestra.
+
+5) Subir cancion: se da de alta una cancion en el archivo del sistema
+
+6)Modificar cancion: igual que con los usuarios, se puede modificar 
+una cancion cargada en el sistema;
+
+7) Listar canciones: muestra todas las canciones cargadas en el sistema
+
+8) Buscar cancion especifica: se busca por iD y la muestra por pantalla.
+
+Pantalla Cliente: se muestran todas las funciones correspondiente al cliente
+1) ver perfil: muestra el perfil del usuario logueado en el momento
+2) modificar perfil: el usuario puede cambiar cualquier informacion de él
+respetando las reglar de registro.
+3) ver playlist: muestra cada cancion que el usuario agregó a sus favoritos
+4) escuchar playlist: reproduce automaticamente la playlist del usuario
+5) Listar canciones: muestra todas las canciones ACTIVAS del sistema
+	al cliente no se le permite ver las canciones eliminadas
+6) escuchar una cancion: reproduce la cancion elegida
+7) busca una cancion: buscar una cancion por id, la muestra y al CLIENTE
+se le pregunta si quiere agregarla a su playlisy
+8) cerrar sesion: vuelve al menu principal y guarda los cambios que el usuario
+haya hecho en su perfil.
+
