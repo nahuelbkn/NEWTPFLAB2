@@ -11,10 +11,10 @@
 
 typedef struct {
     int  idCancion;
-    char titulo[40];
-    char artista[40];
+    char titulo[30];
+    char artista[30];
     int  duracion;
-    char album[40];
+    char album[30];
     int  anio;
     char genero[20];
     char comentario[100];
@@ -35,6 +35,6 @@ int fromArchiToArreglo (stCancion arreglo[], int dim);
 nodoArbolCancion * fromArchiToArbol (nodoArbolCancion * arbol);
 
 stCancion inicCancion ();
-nodoArbolCancion * buscarCancionPorID (nodoArbolCancion * raiz, int idCancionBuscada);
+stCancion buscarCancionPorID (nodoArbolCancion * raiz, int idCancionBuscada);
 
 #endif // TDA_ARBOLES_H_INCLUDED

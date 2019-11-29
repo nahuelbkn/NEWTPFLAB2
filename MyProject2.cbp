@@ -31,6 +31,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Bitacora de trabajo" />
 		<Unit filename="TDA_AdL.c">
 			<Option compilerVar="CC" />
 		</Unit>

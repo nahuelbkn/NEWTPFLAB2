@@ -1,9 +1,0 @@
-cliente: gustavito 1234
-admin: gustavo 1234
-
-si no entra
-
-admin: agus 1234
-cliente: pepe 1234
-
-si todo lo demas falla contacte a su programador de confianza
